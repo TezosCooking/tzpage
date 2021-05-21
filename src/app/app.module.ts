@@ -24,7 +24,11 @@ import { ShortenPipe } from './pipes/shorten.pipe'
 import { AmountConverterPipe } from './pipes/amount.pipe';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { HomeComponent } from './pages/home/home.component';
+import { DomainComponent } from './pages/domain/domain.component';
+import { PagesformComponent } from './components/pagesform/pagesform.component'
 
 
 @NgModule({
@@ -33,6 +37,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     FooterComponent,
     HeaderComponent,
     ShortenPipe,
+    DashboardComponent,
+    HomeComponent,
+    DomainComponent,
+    PagesformComponent,
 
   ],
   imports: [

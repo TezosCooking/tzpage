@@ -17,10 +17,13 @@ import * as actions from '../../connect-wallet.actions'
 
 })
 export class HeaderComponent implements OnInit {
+  
   connectedWallet$: Observable<AccountInfo | undefined> | undefined
 
   isCollapsed = true
+
   dogVision = false
+
   constructor(
     private readonly router: Router,
     private readonly store$: Store<State>,
